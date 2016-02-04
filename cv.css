@@ -1,0 +1,183 @@
+ 
+ *{
+margin:0;
+padding:0;
+}
+html {
+height:100%
+}
+body{
+width:100%;
+height:100%;
+color:#333;
+background:#f7f7f7;
+font-size:1.4em;
+font-family:Merriweather;
+line-height:135%;
+}
+
+#pic {
+text-align: auto;
+margin-left: 3%;
+border-style: groove;
+}
+
+#trigger1 {
+margin-top: 30px;
+color: #2e8b22;
+}
+
+#trigger2 {
+margin-top: 30px;
+color: #2e8b22;
+}
+
+#trigger3 {
+margin-top: 30px;
+color: #2e8b22;
+}
+
+#trigger4 {
+margin-top: 30px;
+color: #2e8b22;
+}
+
+#trigger5 {
+margin-top: 30px;
+color: #2e8b22;
+}
+
+#trigger6 {
+margin-top: 30px;
+color: #2e8b22;
+}
+
+.info {
+padding-top: 2px;
+text-align: left;
+margin-left: 2%;
+width: 350px;
+color: #2e8b22;
+}
+
+#wrapper{
+height: 100%;
+float:left;
+width:80%;
+margin-left10%;
+margin-top:20 px;}
+
+#wrapper #leftCol{
+width: 432px;
+margin-right: 7%;
+margin-left: 1%;
+height: 500px;
+float: left;
+}
+
+#wrapper #rightCol{
+width: 60%;
+margin-right: 3%;
+height: 500px;
+float: left;
+margin-bottom: 101px;
+}
+
+a {
+color:#2e8b22;
+text-decoration:none;
+transision:all.6s ease;
+-moz-transision:all.6s ease;
+}
+a:hover {
+color:#8b9ff5;
+text-decoration:none;
+transision:all.6s ease;
+-moz-transision:all.6s ease;
+}
+a:active{color:#8ce4a6;}
+
+
+
+.left {float:left;}
+.right {float:right;}
+.clear {clear:both;}
+
+
+/* Selection block */
+::selection {background:#f48b8b;color:#fff;}
+::-moz-selection {background:#f48b8b;color:#fff;}
+
+header, footer {
+width:98%;
+background-color: #fff;
+float:left;
+}
+
+footer{
+margin-bottom: 0px;
+}
+header {
+border-bottom: 2px solid silver;
+padding:1%;
+height:50px;
+
+}
+
+#logo{
+color:#696969;
+font-size: 2em;
+font-family:Playfair Display SC;
+}
+
+/* Стили для футер*/
+footer {
+height: 100px;
+padding:1%;
+border-top: 2px solid silver;
+margin-top:10px;
+padding-bottom:2%;
+}
+#page-wrap :after {
+content:"";
+display: block;
+}
+
+footer, #page-wrap:after{height:10px;}
+
+#page-wrap {
+overflow: auto;
+min-height:94%;
+margin-bottom: -10px;
+}
+
+/* /////////// */
+
+/*Основные стили для сайта*/
+#wrapper{
+float:left;
+width:100%;
+margin-top:20 px;}
+
+#wrapper #articles {
+float:left;
+width:80%;
+margin-left:10%;}
+
+#wrapper #articles  article {
+float:left;
+width:31.3333%;
+border:1px solid silver;
+box-sizing:border-box;
+border-radius:5px;
+background-color:#fafafa;
+margin-right:2%;
+min-height:400px;}
+
+#wrapper #articles  article h2{
+width:90%
+margin-left:5%;
+font-weight: normal;
+font-size:1.7em;
+color: #4a4a4a;}
+
